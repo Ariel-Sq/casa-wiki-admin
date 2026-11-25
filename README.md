@@ -13,6 +13,9 @@ Panel de administración de Casa Wiki (Next.js 15). Es un deploy independiente q
 2. Login con Google en el panel. El backend valida el rol en cada request: solo `owner`, `admin` o `editor` entran al catálogo; `sales` a pedidos/reseñas; `owner` a usuarios e historial.
 3. La cuenta definida en `OWNER_EMAIL` del backend se resuelve siempre como `owner`.
 
+> **Pendiente:** hoy `OWNER_EMAIL` es `legasmuebles@gmail.com`. Hay que cambiarlo por la cuenta definitiva de Casa Wiki antes de avanzar. Ver `TODO.md` en el repo del storefront.
+
+
 ## Desarrollo
 
 ```bash
