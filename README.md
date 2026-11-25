@@ -23,6 +23,8 @@ cp .env.example .env.local
 pnpm dev   # http://localhost:3004
 ```
 
+En local el backend de Casa Wiki corre en `http://localhost:8081` con la base `casawiki_db` (independiente de Legas).
+
 Variables principales: `BACKEND_URL`, `NEXT_PUBLIC_SITE_URL`, `NEXTAUTH_URL`, `NEXTAUTH_SECRET`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `FRONTEND_SHARED_SECRET`, `ADMIN_BASIC_AUTH_USER`, `ADMIN_BASIC_AUTH_PASS`.
 
 El callback de Google para este panel es:

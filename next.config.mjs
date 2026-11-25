@@ -20,6 +20,11 @@ const nextConfig = {
         port: '8080',
       },
       {
+        protocol: 'http',
+        hostname: 'localhost',
+        port: '8081',
+      },
+      {
         // Casa Wiki backend (hero banner + /api/images).
         protocol: 'https',
         hostname: 'casa-wiki-api.vercel.app',
