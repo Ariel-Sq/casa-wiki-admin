@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { LoginButton } from '@/components/admin/login-button';
+import { SITE_URL } from '@/utils/environments';
 
 export const metadata = {
   title: 'Ingresar · Casa Wiki Panel',
@@ -20,7 +21,7 @@ export default function LoginPage() {
         </p>
       </div>
       <LoginButton />
-      <Link href="https://casawiki.vercel.app" className="text-sm underline">
+      <Link href={SITE_URL} className="text-sm underline">
         Ir a la tienda
       </Link>
     </div>

@@ -20,7 +20,7 @@ source ~/.nvm/nvm.sh && nvm use 22
 cd ~/projects/casa-wiki-admin
 pnpm install
 cp .env.example .env.local
-pnpm dev   # http://localhost:3003
+pnpm dev   # http://localhost:3004
 ```
 
 Variables principales: `BACKEND_URL`, `NEXT_PUBLIC_SITE_URL`, `NEXTAUTH_URL`, `NEXTAUTH_SECRET`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `FRONTEND_SHARED_SECRET`, `ADMIN_BASIC_AUTH_USER`, `ADMIN_BASIC_AUTH_PASS`.
@@ -29,7 +29,7 @@ El callback de Google para este panel es:
 
 ```
 https://casa-wiki-admin.vercel.app/api/auth/callback/google
-http://localhost:3003/api/auth/callback/google
+http://localhost:3004/api/auth/callback/google
 ```
 
 ## Deploy
